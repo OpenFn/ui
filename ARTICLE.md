@@ -7,3 +7,10 @@ Getting started with JSPM & React
 
 *runs a live reload server*
 `live-server`
+
+
+Install React
+
+`jspm install react=npm:react`
+
+
