@@ -3,8 +3,9 @@
     "directories": {},
     "dependencies": {
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "clean-css": "npm:clean-css@^3.4.1",
       "css": "github:systemjs/plugin-css@^0.1.15",
-      "react": "npm:react@^0.13.3",
+      "react": "npm:react@0.13.3",
       "react-bootstrap": "npm:react-bootstrap@^0.25.1"
     },
     "devDependencies": {
