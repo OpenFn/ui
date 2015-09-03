@@ -22,6 +22,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.15",
     "react": "npm:react@0.13.3",
     "react-bootstrap": "npm:react-bootstrap@0.25.1",
+    "react-router": "npm:react-router@0.13.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -197,6 +198,12 @@ System.config({
     },
     "npm:react-prop-types@0.2.2": {
       "warning": "npm:warning@2.0.0"
+    },
+    "npm:react-router@0.13.3": {
+      "object-assign": "npm:object-assign@2.1.1",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "qs": "npm:qs@2.4.1",
+      "react": "npm:react@0.13.3"
     },
     "npm:react@0.13.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
