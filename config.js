@@ -23,6 +23,7 @@ System.config({
     "react": "npm:react@0.13.3",
     "react-bootstrap": "npm:react-bootstrap@0.25.1",
     "react-router": "npm:react-router@0.13.3",
+    "reflux": "npm:reflux@0.2.12",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -225,6 +226,15 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:reflux-core@0.2.1": {
+      "eventemitter3": "npm:eventemitter3@1.1.1"
+    },
+    "npm:reflux@0.2.12": {
+      "eventemitter3": "npm:eventemitter3@1.1.1",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "react": "npm:react@0.13.3",
+      "reflux-core": "npm:reflux-core@0.2.1"
     },
     "npm:source-map@0.1.31": {
       "amdefine": "npm:amdefine@1.0.0",
