@@ -18,11 +18,11 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "clean-css": "npm:clean-css@3.4.1",
-    "core-js": "npm:core-js@1.1.3",
-    "css": "github:systemjs/plugin-css@0.1.15",
+    "core-js": "npm:core-js@1.1.4",
+    "css": "github:systemjs/plugin-css@0.1.16",
     "react": "npm:react@0.13.3",
     "react-bootstrap": "npm:react-bootstrap@0.25.1",
-    "react-router": "npm:react-router@0.13.3",
+    "react-mini-router": "npm:react-mini-router@1.1.7",
     "reflux": "npm:reflux@0.2.12",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -115,7 +115,7 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:core-js@1.1.3": {
+    "npm:core-js@1.1.4": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
@@ -136,7 +136,7 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:fbjs@0.1.0-alpha.4": {
-      "core-js": "npm:core-js@1.1.3",
+      "core-js": "npm:core-js@1.1.4",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1",
@@ -173,6 +173,9 @@ System.config({
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
+    "npm:path-to-regexp@1.2.1": {
+      "isarray": "npm:isarray@0.0.1"
+    },
     "npm:promise@7.0.4": {
       "asap": "npm:asap@2.0.3",
       "fs": "github:jspm/nodelibs-fs@0.1.2"
@@ -187,24 +190,27 @@ System.config({
       "keycode": "npm:keycode@2.1.0",
       "lodash": "npm:lodash@3.10.1",
       "process": "github:jspm/nodelibs-process@0.1.1",
+      "react": "npm:react@0.13.3",
       "react-overlays": "npm:react-overlays@0.4.4",
       "uncontrollable": "npm:uncontrollable@3.1.0"
+    },
+    "npm:react-mini-router@1.1.7": {
+      "path-to-regexp": "npm:path-to-regexp@1.2.1",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "react": "npm:react@0.13.3",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0",
+      "urllite": "npm:urllite@0.5.0",
+      "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:react-overlays@0.4.4": {
       "classnames": "npm:classnames@2.1.3",
       "dom-helpers": "npm:dom-helpers@2.4.0",
-      "react": "npm:react@0.14.0-beta3",
+      "react": "npm:react@0.13.3",
       "react-prop-types": "npm:react-prop-types@0.2.2",
       "warning": "npm:warning@2.0.0"
     },
     "npm:react-prop-types@0.2.2": {
       "warning": "npm:warning@2.0.0"
-    },
-    "npm:react-router@0.13.3": {
-      "object-assign": "npm:object-assign@2.1.1",
-      "process": "github:jspm/nodelibs-process@0.1.1",
-      "qs": "npm:qs@2.4.1",
-      "react": "npm:react@0.13.3"
     },
     "npm:react@0.13.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -261,13 +267,16 @@ System.config({
     "npm:uncontrollable@3.1.0": {
       "invariant": "npm:invariant@2.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1",
-      "react": "npm:react@0.14.0-beta3"
+      "react": "npm:react@0.13.3"
     },
     "npm:url@0.10.3": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "punycode": "npm:punycode@1.3.2",
       "querystring": "npm:querystring@0.2.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:urllite@0.5.0": {
+      "xtend": "npm:xtend@4.0.0"
     },
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",
